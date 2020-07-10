@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/standard_margin"
+    tools:context="com.example.books.SearchActivity">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:textSize="@dimen/text_size"
+        android:ems="10"
+        android:hint="@string/hint_title" />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:textSize="@dimen/text_size"
+        android:ems="10"
+        android:hint="@string/hint_author" />
+
+    <EditText
+        android:id="@+id/etPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:textSize="@dimen/text_size"
+        android:ems="10"
+        android:hint="@string/hint_publisher" />
+
+    <EditText
+        android:id="@+id/etISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:textSize="@dimen/text_size"
+        android:ems="10"
+        android:hint="@string/hint_isbn"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:background="@drawable/search_button_shape"
+        android:paddingLeft="@dimen/margin_search_activity"
+        android:paddingStart="@dimen/margin_search_activity"
+        android:paddingEnd="@dimen/margin_search_activity"
+        android:paddingRight="@dimen/margin_search_activity"
+        android:paddingTop="@dimen/smaller_margin"
+        android:paddingBottom="@dimen/smaller_margin"
+        android:textAllCaps="false"
+        android:text="@string/search"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
